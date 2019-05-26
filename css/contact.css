@@ -156,6 +156,9 @@ footer a{
         text-align: center;
         width: 100%;
     }
+    
+    .sendmail {
+        margin-top: 80px; }
 
     footer a{
         padding: 0 0.7rem;
