@@ -15,14 +15,16 @@ body {
 }
 
 #showcase{
-    width: 100%;
-    height: calc(100vh - 100px);
-    background: url( '../img/lololol.jpg');
+    background-size: cover;
     background-repeat: no-repeat;
     background-position: center;
-    background-size: cover;
-    text-align: center;
+    width: 100%;
+    height: calc(100vh - 100px);
     color: #fff;
+}
+
+.bgimg {
+    z-index: 1030;
 }
 
 .images {
@@ -34,7 +36,7 @@ body {
 }
 
 .instagram {
-    padding-top: 22rem;
+    padding-top: 20rem;
     width: 25px;
     vertical-align: 0;
 }
@@ -68,17 +70,6 @@ body {
 .box {
     margin-top: 50px;
     margin-bottom: 50px;
-}
-
-.fvent{
-    font-size: 30px;
-    font-weight: 500;
-    letter-spacing: 10px;
-    letter-spacing: 0;
-    margin-bottom: -10px;
-    margin-right: 0px;
-    margin-left: 0px;
-    display: block;
 }
 
 .box h3{
@@ -156,24 +147,35 @@ footer a{
         text-align: center;
         width: 100%;
     }
-    
-    .sendmail {
-        margin-top: 80px; }
 
     footer a{
         padding: 0 0.7rem;
     }  
 
+    .fvent{
+        font-size: 0.1rem;
+        line-height: 1.1;
+        padding-bottom: 20px;
+        font-weight: 500;
+        margin-bottom: -10px;
+        margin-right: 0px;
+        margin-left: 0px;
+        display: block;
+    }
 
     .box h2{
         font-size: 30px;
         font-weight: 500;
-        letter-spacing: 10px;
         margin-bottom: 10px;
         margin-right: 0px;
         margin-left: 0px;
         display: inline-block;
         margin-top: 3rem;
+    }
+
+    .box h2 p {
+        font-size: 1.3rem;
+        font-weight: 100;
     }
 
     #showcase h1 {
@@ -182,15 +184,23 @@ footer a{
         font-weight: 10;
         letter-spacing: 6px;
         line-height: 40px;
-        margin-left: 20px;
+        margin-left: 60px;
     }
 
     #showcase h2 {
-        margin-top: 130px;
+        margin-top: 128px;
         font-weight: 10px;
         margin-bottom: 20px;
-        margin-left: 21px;
+        margin-left: 59px;
         font-size: 1.7rem;
+    }
+
+    .box h3{
+        font-size: 25px;
+        font-weight: 200;
+        letter-spacing: 5px;
+        margin: 15px 0;
+        padding-top: 20px;
     }
 
 
@@ -261,7 +271,6 @@ footer a{
     font-size: 1.25rem;
     margin-bottom: 0.5rem;
     line-height: 1.1;
-    margin-top: 80px;
 }
 
 #myform {
